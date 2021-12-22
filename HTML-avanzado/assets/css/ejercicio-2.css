@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+}
+body{
+    background-color: rgb(132, 246, 208);
+}
+
+table, tr, th, td{
+    border: 1px solid black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+th{
+    background-color: rgb(132, 246, 208);
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+td{
+    background-color: rgb(132, 246, 208);
+    padding-right: 55px;
+    padding-top: 5px;
+}
+#rojo{
+    color: red;
+}
+#amarillo{
+    color: yellow;
+}
+#italica{
+    font-style: italic;
+}
+.naranja{
+    background-color: rgb(235, 107, 21);
+}
+.negro{
+    color: black;
+    background-color: black;
+}
+.limon{
+    background-color: chartreuse;
+}
+

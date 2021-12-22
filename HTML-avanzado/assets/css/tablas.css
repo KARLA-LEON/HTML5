@@ -1,0 +1,9 @@
+table, tr, th, td{
+    border: 1px solid black
+}
+th{
+    background-color: lightpink;
+}
+td{
+    background-color: cornflowerblue;
+}

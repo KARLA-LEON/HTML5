@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="assets/css/ejercicio-1.css" type="text/css">
+</head>
+<body>
+    <form class="formulario">
+
+        <p class="title">Datos del comprador</p>
+            <div class="nombre">
+                <label for="nombre">Nombre  </label>
+                <input class="nombre" id="nombre" type="text" name="nombre" placeholder="Escribe tu nombre completo" required>
+            </div>
+            <div class="email">
+                <label for="email">Email    </label>
+                <input class="email" id="email" type="text" name="email" placeholder="ejemplo@um.es" required>
+            </div>
+            <div class="tel">
+                <label for="tel">Teléfono   </label>
+                <input class="tel" id="tel" type="text" name="tel" placeholder="Ej. +34668899999" required>
+            </div>
+            <div class="pais">
+                <label for="pais">País  </label>
+                <input class="pais" id="pais" type="text" name="pais" required>
+            </div>
+        <p class="title">Datos de tarjeta de crédito o débito</p>
+        
+            <div class="numtarjeta">
+                <label for="numtarjeta">Número  </label>
+                <input class="numtarjeta" id="numtarjeta" type="number" name="numtarjeta" placeholder="Ej. 555-444-333-222" required>
+            </div>
+            <div class="nametarjeta">
+                <label for="nametarjeta">Nombre </label>
+                <input class="nametarjeta" id="nametarjeta" type="text" name="nametarjeta" placeholder="Nombre que figura en la tarjeta" required>
+            </div>
+        <p class="title">-----------------------------------</p>
+            <div class="enviar">
+                <input id="enviar" type="submit" value="Confirmar pedido">
+            </div>
+
+    </form>
+    
+</body>
+</html>

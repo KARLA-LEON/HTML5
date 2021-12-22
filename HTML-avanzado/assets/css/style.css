@@ -1,0 +1,30 @@
+.formulario{
+    border: 3px solid palevioletred;
+}
+#nombre{
+    background-color: pink;
+    border: 2px solid plum;
+    border-radius: 3px;
+}
+#apellido{
+    background-color: palegoldenrod;
+    border: 2px solid orange;
+    border-radius: 3px;
+}
+
+#password{
+    background-color: palegreen;
+    border: 2px solid mediumseagreen;
+    border-radius: 3px;
+}
+
+#correo{
+    background-color: lightblue;
+    border: lightseagreen 2px solid;
+    border-radius: 3px;
+}
+
+#enviar{
+    background-color: darkgray;
+    color: white;
+}
